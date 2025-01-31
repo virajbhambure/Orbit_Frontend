@@ -5,6 +5,7 @@ import ForgotPassword from './Components/ForgotPassword'
 import Header from './Components/Header'
 // import VideoGrid from "./components/VideoGrid";
 import Body from './Components/Body'
+import Profile from './Components/Profile'
 
 export default function App() {
   return (
@@ -15,8 +16,9 @@ export default function App() {
    {/* <Header/> */}
     {/* <VideoGrid/> */}
     
-    <Header />
-    <Body/>
+    {/* <Header />
+    <Body/> */}
+    <Profile/>
     
     
   </>
