@@ -1,6 +1,6 @@
 import React from "react";
 import VideoCard from "./VideoCard";
-import videoData from "../data/videoData"; 
+import {videoData} from "../data/videodata"; 
 
 const VideoGrid = () => {
   return (
