@@ -1,9 +1,12 @@
 
 import React,{useState} from "react";
 import Header from "./Header";
-import { myVideos, MyTweets, LikedVideos } from "../data/Videodata";
+import { myVideos, myTweets, likedVideos } from "../data/Videodata";
 import VideoGrid from "./Videogrid.jsx";
 import VideoCard from "./VideoCard.jsx";
+import MyTweets from "./MyTweets.jsx";
+import LikedVideos from "./LikedVideos.jsx";
+import MyVideos from "./MyVideos.jsx";
 
 
 const Profile = () => {
@@ -12,7 +15,7 @@ const Profile = () => {
     <div className="dark:bg-gray-800 dark:text-white min-h-screen w-full">
       <Header />
 
-      {/* Cover Image */}
+     
       <div className="coverImage">
         <img
           src="src/assets/coverImage.jpg"
@@ -21,8 +24,9 @@ const Profile = () => {
         />
       </div>
 
-      {/* Profile Section */}
+      
       <div className="flex flex-col items-center mt-[-4rem]">
+        
         {/* Profile Image */}
         <img
           src="src/assets/profileImage.jpg"

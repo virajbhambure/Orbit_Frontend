@@ -28,15 +28,15 @@ const myVideos = [
   { id: 2, title: "JavaScript Crash Course", thumbnail: "src/assets/video2.jpg", url: "https://www.youtube.com/watch?v=def456" }
 ];
 
-const MyTweets = [
+const myTweets = [
   { id: 1, tweet: "Just finished reading Atomic Habits by James Clear. Highly recommend it!", date: "5 days ago" },
   { id: 2, tweet: "Learning React has been a game-changer!", date: "3 days ago" }
 ];
 
-const LikedVideos = [
+const likedVideos = [
   { id: 1, title: "Next.js Guide for Beginners", thumbnail: "src/assets/video3.jpg", url: "https://www.youtube.com/watch?v=ghi789" },
   { id: 2, title: "Node.js Best Practices", thumbnail: "src/assets/video4.jpg", url: "https://www.youtube.com/watch?v=jkl012" }
 ];
 
-// ✅ Named exports instead of default export
-export { videoData, myVideos, MyTweets, LikedVideos };
+
+export { videoData, myVideos, myTweets, likedVideos };
